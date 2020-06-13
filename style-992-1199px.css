@@ -1,0 +1,43 @@
+#body
+{
+    min-width: 992px;
+}
+
+    #bloc_page
+    {
+        width: 40%;
+    }
+/* -------------------------------CONTENU BLOC BLANC--------------------------------- */
+
+    .puce2
+                {
+                    font-size: 0.5em;
+                }
+
+    .reco
+                {
+                    margin-left: 0%;
+                    margin-right: 10%;
+                }
+                
+            h3
+            {
+                font-size: 2em;
+                border-bottom:   #009688 solid 0.1rem;                
+            }
+            h4
+            {
+                font-size: 1.3em;
+            }
+
+            h5
+            {
+                font-size: 1.1em;
+            }
+
+ /* ------------------------------- ASIDE --------------------------------- */
+
+        #aside
+        {
+            background-color: #009688;            
+        }

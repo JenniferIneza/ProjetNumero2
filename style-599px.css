@@ -1,0 +1,132 @@
+#body
+{
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    min-width: 0px;
+    font-size: 0.7em;
+    font-family:'quicksandbold','quicksandregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+    #bloc_page
+    {
+        width: 100%;
+        margin: 0%;
+        flex-direction: column-reverse;
+    }
+
+        #bloc_blanc
+        {
+            flex-direction: column;
+            flex-wrap: wrap;    
+            width: 100%;
+            width: auto;
+
+        }
+/* -------------------------------HEADER BLOC BLANC--------------------------------- */
+
+            h1
+            {
+               justify-content: center;
+               width: auto;
+            }
+
+            h2
+            {   
+                width: auto;
+                justify-content: center;               
+            }
+
+
+/* -------------------------------CONTENU BLOC BLANC--------------------------------- */
+
+            .boxes
+            {
+                width: auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .textes 
+                {                  
+                    width: auto;
+                }
+                .puce2
+                {
+                    font-size: 0.25em;
+                }
+
+            #recommandation
+            {
+                flex-wrap: wrap;            
+            }
+                .reco
+                {
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    text-align: left;
+                }
+ 
+            h3
+            {
+                font-size: 1.5em;
+                border-bottom: #009688 solid 0.1em;
+                margin-top: 0.9em;
+                width: auto;
+            }
+            h4
+            {
+                font-size: 1.2em;
+                margin: 0em;
+                width: auto;
+            }
+            h5
+            {
+                font-size: 1em;
+                margin: 0em;
+                width: auto;
+            }
+
+
+ /* ------------------------------- ASIDE --------------------------------- */
+
+        #aside
+        {
+            width: 100%;
+            padding: 0%;  
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #009688;
+        }
+
+            .blocs
+            {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .boxes-a
+                {
+                width: 30%;
+                 }
+
+            img
+            {
+                border: #daaf12 0.2em solid;
+                border-radius:100%;
+                width: max-content;                
+            }
+
+            h6
+            {
+                font-size: 0.9em;
+            }
+
+            .p1-a
+            {
+                margin: 5%;
+            }
+
+            .foot-a
+            {
+             margin-top:0%;
+            }

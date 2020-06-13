@@ -1,0 +1,289 @@
+#body
+{
+    min-width: 1200px;
+    margin: 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 0.4em;
+    font-family:'quicksandbold','quicksandregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    #bloc_page
+    {
+        width: 40%;
+        height: 100%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        display: flex;
+    }
+
+        #bloc_blanc
+        {
+            display: flex;
+            flex-direction: column;    
+            padding: 4% 0% 1% 4%;   
+            background-color: white;
+            width: 70%;
+        }
+/* -------------------------------HEADER BLOC BLANC--------------------------------- */
+
+            .nom
+            {
+                color: #feca07;
+                margin-right: 3%;
+                font-family:'aileronlight','aileronregular','quicksandbold','quicksandregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;         
+                letter-spacing: 1px;
+            }
+            .dev
+            {
+            text-decoration: underline #feca07 ;
+            }
+
+            h1
+            {
+               display: flex;
+               font-size: 3em;
+               font-family: 'aileronultralight','quicksandregular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               margin-top: 0%;
+               margin-bottom: 0%;
+            }
+
+            h2
+            {
+                font-size: 1.5em;
+                display: flex;
+                margin-top: 0%;
+            }
+
+
+/* -------------------------------CONTENU BLOC BLANC--------------------------------- */
+
+            i
+            {
+                color: #feca07;
+                margin-right: 0.7rem;
+            }
+
+            .boxes
+            {
+                width:95%;
+                display: flex;
+            }
+
+                 .dates
+                { 
+                    display: flex;
+                    flex-direction:column;
+                    width: 20%;
+                    padding-left: 2%;
+                    margin-right: 4%;
+                    list-style: none;
+                    display: flex;
+                }
+
+                .idates
+                {
+                    list-style: none;
+                    margin-right: 1% ;
+                    margin-top: 2%;
+                }
+
+                .textes 
+                {
+                    width: 80%;
+                    margin-top: 2%;
+                }
+                .puce2
+                {
+                    margin-top: 2%;
+                    font-size: 4px;
+                    margin-right: 2%;
+                    margin-left: 0% ;
+                }
+
+            #recommandation
+            {
+
+                display: flex;
+                margin-bottom: 0%;
+            
+            }
+                .reco
+                {
+                   margin-left: 0%;
+                   margin-right: 10%;
+                   text-align: left;
+                }
+ 
+            h3
+            {
+                font-size: 2em;
+                border-bottom:  #009688 solid 0.1rem;
+                margin-top: 0.9rem;
+            }
+            h4
+            {
+                font-size: 1.5em;
+                margin: 0rem;
+            }
+            h5
+            {
+                font-size: 1.2em;
+                margin: 0rem;
+            }
+
+
+ /* ------------------------------- ASIDE --------------------------------- */
+
+        #aside
+        {
+            background-color:#009688;
+            width: 30%;
+            padding: 0%;                
+        }
+            img
+            {
+                border: #daaf12 0.2rem solid;
+                border-radius:100%;
+                margin:15% ;
+                width: 70%;
+            
+            }
+            h6
+            {
+                width: 100%;
+                font-size: 1.2em;
+                color: #feca07;
+                Background-color:#404040;
+                text-align: center;
+                margin:0rem;
+            }
+
+            .p1-a
+            {
+                margin: 15%;
+                line-height: 0.2rem;
+            }
+
+            .p2-a
+            {
+                margin: 1rem;
+                line-height: 0.5rem;
+            }
+
+            .foot-a
+            {
+             margin-top:50%;
+            }
+
+                #icones-a
+                {
+                    width: 90%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin-top: 10%;
+                    margin-left: 10%;
+                }
+
+                    .igrey  
+                    {
+                        font-size: 1.5em;
+                        color: #404040;
+                    }
+
+/*---------------------------------polices-------------------------------*/
+            @font-face 
+            {
+                font-family: 'quicksandregular';
+                src: url('fonts/quicksand-regular-webfont.eot');
+                src: url('fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('fonts/quicksand-regular-webfont.woff') format('woff'),
+                     url('fonts/quicksand-regular-webfont.ttf') format('truetype'),
+                     url('fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            
+            @font-face {
+                font-family: 'quicksandbold';
+                src: url('fonts/bold/quicksand-bold-webfont.eot');
+                src: url('fonts/bold/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('fonts/bold/quicksand-bold-webfont.woff') format('woff'),
+                     url('fonts/bold/quicksand-bold-webfont.ttf') format('truetype'),
+                     url('fonts/bold/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+                font-weight: normal;
+                font-style: normal;
+                        }
+            
+            @font-face {
+                font-family: 'aileronregular';
+                
+                src: url('fonts/aileron_regular_macroman/Aileron-Regular-webfont.eot');
+                src: url('fonts/aileron_regular_macroman/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('fonts/aileron_regular_macroman/Aileron-Regular-webfont.woff2') format('woff2'),
+                     url('fonts/aileron_regular_macroman/Aileron-Regular-webfont.woff') format('woff'),
+                     url('fonts/aileron_regular_macroman/Aileron-Regular-webfont.ttf') format('truetype'),
+                     url('fonts/aileron_regular_macroman/Aileron-Regular-webfont.svg#aileronregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            
+            }
+
+            @font-face {
+                font-family: 'aileronultralight';
+                src: url('fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.eot');
+                src: url('fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.woff2') format('woff2'),
+                     url('fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.woff') format('woff'),
+                     url('fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.ttf') format('truetype'),
+                     url('fonts/aileron_ultralight_macroman/Aileron-UltraLight-webfont.svg#aileronultralight') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            
+            }
+            
+            @font-face {
+                font-family: 'aileronlight';
+                src: url('fonts/aileron_light_macroman/Aileron-Light-webfont.eot');
+                src: url('fonts/aileron_light_macroman/Aileron-Light-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('fonts/aileron_light_macroman/Aileron-Light-webfont.woff2') format('woff2'),
+                     url('fonts/aileron_light_macroman/Aileron-Light-webfont.woff') format('woff'),
+                     url('fonts/aileron_light_macroman/Aileron-Light-webfont.ttf') format('truetype'),
+                     url('fonts/aileron_light_macroman/Aileron-Light-webfont.svg#aileronlight') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            
+            }
+
+            @font-face {
+                font-family: 'nimbus_sans_lbold';
+                src: url('fonts/nimbussansl_bold_macroman/NimbusSanL-Bol-webfont.eot');
+                src: url('fonts/nimbussansl_bold_macroman/NimbusSanL-Bol-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('fonts/nimbussansl_bold_macroman/NimbusSanL-Bol-webfont.woff2') format('woff2'),
+                     url('fonts/nimbussansl_bold_macroman/NimbusSanL-Bol-webfont.woff') format('woff'),
+                     url('fonts/nimbussansl_bold_macroman/NimbusSanL-Bol-webfont.ttf') format('truetype'),
+                     url('fonts/nimbussansl_bold_macroman/NimbusSanL-Bol-webfont.svg#nimbus_sans_lbold') format('svg');
+                font-weight: normal;
+                font-style: normal;}
+
+            @font-face {
+                font-family: 'nimbus_sans_lregular';
+                src: url('fonts/nimbussansl_regular_macroman/NimbusSanL-Reg-webfont.eot');
+                src: url('fonts/nimbussansl_regular_macroman/NimbusSanL-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('fonts/nimbussansl_regular_macroman/NimbusSanL-Reg-webfont.woff2') format('woff2'),
+                     url('fonts/nimbussansl_regular_macroman/NimbusSanL-Reg-webfont.woff') format('woff'),
+                     url('fonts/nimbussansl_regular_macroman/NimbusSanL-Reg-webfont.ttf') format('truetype'),
+                     url('fonts/nimbussansl_regular_macroman/NimbusSanL-Reg-webfont.svg#nimbus_sans_lregular') format('svg');
+                font-weight: normal;
+                font-style: normal;            
+            }
+            
+            
+            
+                        
+        
+
